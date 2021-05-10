@@ -35,7 +35,7 @@ func addOne(x int) {
 func addOneWithPointer(x *int) {
 	// x = x + 1 // error - we cannot add 1 to a pointer
 	// We have to dereference the pointer
-	*x = *x + 1 // *x = give me the thing that the pointer points to
+	*x = *x + 1 // * = give me the thing that the pointer points to
 }
 
 func main() {
